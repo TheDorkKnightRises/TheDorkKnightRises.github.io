@@ -35,6 +35,10 @@ font-size: 1.5em;
 line-height: 1.4em; 
 color: #333; 
 } 
+p1
+{
+  font-size:0.8em;
+}
 footer 
 { 
 border-top: 1px solid #d5d5d5; font-size: 0.8em;
