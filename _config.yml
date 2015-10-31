@@ -1,3 +1,5 @@
 name: The Dork Knight Rises
 markdown: kramdown
 url: https://thedorkknightrises.github.io
+gems:
+  - jekyll-sitemap
