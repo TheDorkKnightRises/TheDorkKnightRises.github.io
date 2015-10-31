@@ -1,69 +1,22 @@
 <!DOCTYPE html>
 <html>
-<script>
-var host = "thedorkknightrises.github.io";
-if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https:";
-</script>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=0.8">
-  <title>{{page.title}}</title>
-  <link rel="icon" type="image/png" href="/browseralt.png" />
-  <meta name="title" content="The Dork Knight Rises">
-  <meta name="description" content="Personal website and blog">
-  <meta name="theme-color" content="#243248">
-  <link rel="stylesheet" type= "text/css" href="/css/main.css">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-	
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+{%include ssl.html%}
 
-  ga('create', 'UA-69504956-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('require', 'linkid');
-  ga('send', 'pageview');
-
-</script>
-  
-</head>
+{%include head.html%}
 
 <body>
-<nav>
-  <ul>
-	<li><a href="https://thedorkknightrises.github.io/">Home</a></li>
-	<li><a href="https://thedorkknightrises.github.io/about/">About</a></li>
-	<li><a href="https://thedorkknightrises.github.io/blog/">Blog</a></li>
-  </ul>
-</nav>
+
+{%include nav.html%}
 
 <div class="container">
   {{ content }}
 </div>
 
-<footer>
-  <br>~The Dork Knight Rises (Samriddha Basu)
-<ul>
-  <li>Links:</li>
-  <li><a href="https://plus.google.com/+SamriddhaBasu">Google+</a></li>
-  <li><a href="https://github.com/TheDorkKnightRises">GitHub</a></li>
-  <li><a href="https://thedorkknightrises.github.io/credits/">Credits</a></li>
-</ul>
-</footer>
+{%include footer.html%}
+
 </body>
 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Trial ad -->
-  <ins class="adsbygoogle"
-	style="display:block"
-	data-ad-client="ca-pub-6789084054813885"
-	data-ad-slot="2860903658"
-	data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{%include analytics.html%}
 
 <html>

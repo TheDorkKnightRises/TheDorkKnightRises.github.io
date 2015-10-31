@@ -1,5 +1,7 @@
 name: The Dork Knight Rises
 markdown: kramdown
+paginate: 5
+permalink: /blog/:year/:month/:title
 url: https://thedorkknightrises.github.io
 gems:
   - jekyll-sitemap
