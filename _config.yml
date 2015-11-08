@@ -1,4 +1,5 @@
 name: The Dork Knight Rises
+encoding: UTF-8
 markdown: kramdown
 paginate: 5
 permalink: /blog/:year/:month/:title
