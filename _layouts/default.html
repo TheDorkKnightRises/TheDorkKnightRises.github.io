@@ -8,34 +8,18 @@
 
 
 <body>
-	
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <nav class="mdl-navigation mdl-layout">
-        <a href="https://thedorkknightrises.github.io/">
-        	<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-        		Home
-        	</button>
-        </a>
-        <a href="https://thedorkknightrises.github.io/blog/">
-		<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-			Blog
-		</button>
-	</a>
-        <a href="https://thedorkknightrises.github.io/about/">
-		<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-			About
-		</button>
-	</a>
-      </nav>
-</div>
+
+    <div class="container">
+    	{%include nav.html%}
+    </div>
 
     <div class="container">
     	{{ content }}
     </div>
   
-<div class="container">
+    <div class="container">
 	{%include footer.html%}
-</div>
+    </div>
 
 </body>
 
