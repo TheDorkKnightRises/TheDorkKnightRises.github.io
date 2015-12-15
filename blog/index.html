@@ -3,14 +3,14 @@ layout: default
 title: Blog | The Dork Knight Rises
 ---
 <style>
-    .mdl-card .mdl-grid section
+    .mdl-card .mdl-grid
     {
         height: auto;
     }
 </style>
 <h1>Blog</h1>
 {% for post in site.posts %}
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+<div class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__supporting-text">
     <p>{{ post.title }}</p
@@ -22,7 +22,7 @@ title: Blog | The Dork Knight Rises
     </a>
   </div>
 </div>
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
               <i class="material-icons">share</i>
             </button>
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
@@ -30,5 +30,5 @@ title: Blog | The Dork Knight Rises
               <li class="mdl-menu__item">Twitter</li>
               <li class="mdl-menu__item">Google+</li>
             </ul>
-</section>
+</div>
 {% endfor %}
