@@ -8,12 +8,10 @@ title: Blog | The Dork Knight Rises
 {% for post in site.posts %}
 <div class="mdl-card mdl-shadow--2dp" style="height: auto;">
   <br>
-  <div class="mdl-card__actions">
     <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
       <p>{{ post.title }}</p>
     </a>
-  </div>
-  <br><p1 style= "padding:8px;">{{ post.date | date_to_string }}</p1>
+  <br><p1 style= "margin-left:10px auto;">{{ post.date | date_to_string }}</p1>
   <div class="mdl-card__menu">
     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
       <i class="material-icons">share</i>
