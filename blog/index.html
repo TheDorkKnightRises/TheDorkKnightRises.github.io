@@ -2,15 +2,10 @@
 layout: default
 title: Blog | The Dork Knight Rises
 ---
-<style>
-    .mdl-card .mdl-grid
-    {
-        height: auto;
-    }
-</style>
+
 <h1>Blog</h1>
 {% for post in site.posts %}
-<div class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style= "height: auto;">
+<div class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" style= "height: auto;">
 <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__supporting-text">
     <p>{{ post.title }}</p
@@ -22,7 +17,7 @@ title: Blog | The Dork Knight Rises
     </a>
   </div>
 </div>
-<div style="margin-right: 0px; padding-right: 0px;">
+<div>
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
               <i class="material-icons">share</i>
             </button>
