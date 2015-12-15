@@ -5,28 +5,38 @@
 
 {%include head.html%}
 
-<div class="mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header">
-      <nav>
-        <a href="https://thedorkknightrises.github.io/" class="mdl-navigation__link">
-      		Home
-    	  </a>
-	  <a href="https://thedorkknightrises.github.io/blog/" class="mdl-navigation__link">
-	  	Blog
-	  </a>
-	  <a href="https://thedorkknightrises.github.io/about/" class="mdl-navigation__link">
-		  About
-	  </a>
-      </nav>
-  </header>
-</div>
 
 <body>
-  
-<div class="container">
-  {{ content }}
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">The Dork Knight Rises</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a href="https://thedorkknightrises.github.io/">
+        	<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        		Home
+        	</button>
+        </a>
+        <a href="https://thedorkknightrises.github.io/blog/">
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+			Blog
+		</button>
+	</a>
+        <a href="https://thedorkknightrises.github.io/about/">
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+			About
+		</button>
+	</a>
+      </nav>
+    </div>
+  </header>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+    	{{ content }}
+    </div>
+  </main>
 </div>
-
 {%include footer.html%}
 
 </body>
