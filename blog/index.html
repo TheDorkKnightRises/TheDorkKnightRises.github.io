@@ -2,10 +2,28 @@
 layout: default
 title: Blog | The Dork Knight Rises
 ---
-
+<style>
+section > button 
+{
+  position: absolute;
+  z-index: 99;
+  top: 8px;
+  right: 8px;
+}
+.mdl-card > * {
+  height: auto;
+}
+.mdl-card .mdl-card__supporting-text {
+  margin: 40px;
+  flex-grow: 1;
+  padding: 0;
+  color: inherit;
+  width: calc(100% - 80px);
+}
+</style>
 <h1>Blog</h1>
 {% for post in site.posts %}
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
+<section class="mdl-grid mdl-grid--no-spacing mdl-shadow--4dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
                         <div class="mdl-card__supporting-text">
                         <p>{{ post.title }}</p
