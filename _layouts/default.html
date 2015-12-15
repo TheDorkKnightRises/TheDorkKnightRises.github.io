@@ -6,9 +6,20 @@
 {%include head.html%}
 
 <body>
-
-{%include nav.html%}
-
+  
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <div class="mdl-tabs__tab-bar">
+    <a href="https://thedorkknightrises.github.io/" class="mdl-tabs__tab is-active">
+      Home
+    </a>
+	  <a href="https://thedorkknightrises.github.io/blog/" class="mdl-tabs__tab">
+	  	Blog
+	  </a>
+	  <a href="https://thedorkknightrises.github.io/about/" class="mdl-tabs__tab">
+		  About
+	  </a>
+  </div>	
+</div>
 <div class="container">
   {{ content }}
 </div>
