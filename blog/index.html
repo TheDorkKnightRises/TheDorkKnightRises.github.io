@@ -7,6 +7,14 @@ title: Blog | The Dork Knight Rises
 {% for post in site.posts %}
 <div class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="shr">
+              <i class="material-icons">share</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="shr">
+              <li class="mdl-menu__item">Facebook</li>
+              <li class="mdl-menu__item">Twitter</li>
+              <li class="mdl-menu__item">Google+</li>
+            </ul>
   <div class="mdl-card__supporting-text">
     <p>{{ post.title }}</p
     <p1>{{ post.date | date_to_string }}</p1>
@@ -16,16 +24,6 @@ title: Blog | The Dork Knight Rises
       Read
     </a>
   </div>
-</div>
-<div style= " position:relative; right: 8px;">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="shr">
-              <i class="material-icons">share</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="shr">
-              <li class="mdl-menu__item">Facebook</li>
-              <li class="mdl-menu__item">Twitter</li>
-              <li class="mdl-menu__item">Google+</li>
-            </ul>
 </div>
 </div>
 {% endfor %}
