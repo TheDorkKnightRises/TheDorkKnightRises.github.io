@@ -6,7 +6,6 @@
 {%include head.html%}
 
 
-<body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
@@ -29,12 +28,14 @@
       </nav>
     </div>
   </header>
-  <main class="mdl-layout__content">
-    <div class="page-content">
+</div>
+
+<body>
+
+    <div class="container">
     	{{ content }}
     </div>
-  </main>
-</div>
+  
 <div class="container">
 	{%include footer.html%}
 </div>
