@@ -8,9 +8,13 @@
 <body>
   
 <div class="mdl-layout mdl-js-layout">
-  <div class="mdl-tabs__tab-bar">
-  	<nav class="mdl-navigation">
-    	  <a href="https://thedorkknightrises.github.io/" class="mdl-navigation__link">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout-icon"></div>
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout__title">Simple Layout</span>
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation">
+        <a href="https://thedorkknightrises.github.io/" class="mdl-navigation__link">
       		Home
     	  </a>
 	  <a href="https://thedorkknightrises.github.io/blog/" class="mdl-navigation__link">
@@ -19,9 +23,11 @@
 	  <a href="https://thedorkknightrises.github.io/about/" class="mdl-navigation__link">
 		  About
 	  </a>
-	  </nav>
-  </div>	
+      </nav>
+    </div>
+  </header>
 </div>
+
 <div class="container">
   {{ content }}
 </div>
