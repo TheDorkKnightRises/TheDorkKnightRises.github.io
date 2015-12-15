@@ -5,7 +5,7 @@ width: 70%;
 } 
 nav ul, footer ul 
 { 
-font-family:'Helvetica', 'Helvetica', 'Sans-Serif'; 
+font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
 padding: 0px; 
 list-style: none; 
 font-weight: bold; 
@@ -28,7 +28,7 @@ text-decoration: underline;
 h1 
 { 
 font-size: 2.5em; 
-font-family:'Helvetica', 'Helvetica', 'Sans-Serif'; 
+font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
 } 
 p 
 { 
@@ -42,7 +42,7 @@ p1
 }
 footer 
 { 
-border-top: 1px solid #d5d5d5; font-size: 0.8em;
+border-top: 1px solid #d5d5d5; font-size: 1.0em;
 } 
 ul.posts 
 { 
