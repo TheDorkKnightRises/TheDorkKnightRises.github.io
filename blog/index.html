@@ -5,6 +5,7 @@ title: Blog | The Dork Knight Rises
 
 <h1>Blog</h1>
 {% for post in site.posts %}
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp mdl-color--grey-50">
   <div class="mdl-card__supporting-text">
     <p>{{ post.title }}</p
@@ -15,7 +16,7 @@ title: Blog | The Dork Knight Rises
       Read
     </a>
   </div>
-  <div class="mdl-card__menu">
+</div>
     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id=share>
       <i class="material-icons">share</i>
     </button>
@@ -24,6 +25,5 @@ title: Blog | The Dork Knight Rises
       <li class="mdl-menu__item">Twitter</li>
       <li class="mdl-menu__item">Google+</li>
     </ul>
-  </div>
-</div>
+    </section>
 {% endfor %}
