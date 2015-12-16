@@ -1,10 +1,3 @@
-html { 
-  background: color(grey) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 body 
 { 
 margin: 60px auto; 
@@ -16,55 +9,34 @@ font-family:'Roboto', 'Roboto', 'Sans-Serif';
 padding: 0px; 
 list-style: none; 
 font-weight: bold;
-color: white;
 }
 nav ul li
 { 
 display: inline; 
 margin-right: 20px;
-color: white
 } 
 a 
 { 
 text-decoration: none; 
-color: white; 
 }
 h1
 { 
 font-size: 2.2em; 
 font-family:'Roboto', 'Roboto', 'Sans-Serif';
-} 
-h1w 
-{ 
-font-size: 2.2em; 
-font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
-color: white;
-} 
+}
 p
 { 
 font-size: 1.5em; 
 line-height: 1.4em; 
 color: #333; 
 }
-pw 
-{ 
-font-size: 1.5em; 
-line-height: 1.4em; 
-color: white; 
-} 
 p1
 {
   font-size:1.0em;
 }
-p1w
-{
-  font-size:1.0em;
-  color: white;
-}
 footer 
 { 
 border-top: 1px solid #d5d5d5;
-color: white;
 }
 ul.posts li 
 { 
