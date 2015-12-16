@@ -3,7 +3,7 @@ layout: default
 title: Blog | The Dork Knight Rises
 ---
 <style>
-.mdl-card section > * {
+.mdl-card > * {
   height: auto;
 }
 .mdl-card {
@@ -11,12 +11,16 @@ title: Blog | The Dork Knight Rises
   flex-grow: 1;
   color: inherit;
 }
+section
+{
+  height: auto;
+}
 </style>
 <h1>Blog</h1>
 {% for post in site.posts %}
 <section class="mdl-grid mdl-shadow--4dp">
             <div class="mdl-card mdl-cell">
-                        <div class="mdl-card__title">
+                        <div class="mdl-card__supporting-text">
                         <p>{{ post.title }}</p>
                         <br><p1>{{ post.date | date_to_string }}</p1>
                         </div>
