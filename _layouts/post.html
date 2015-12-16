@@ -8,7 +8,7 @@ layout: default
   		padding: 16px 16px 12px 12px;
 	}
 </style>
-<div class="mdl-grid mdl-shadow--4dp">
+<div class="mdl-grid mdl-shadow--4dp" style="position: relative;">
           <div class="content mdl-color-text--grey-800">
             <div class="mdl-color-text--grey-800">
               Blog &gt; {{ page.date | date_to_string }}
@@ -18,7 +18,7 @@ layout: default
   		{{ content }}
 	    </div>
           </div>
-        <div class="mdl-card__menu" style="position: relative; z-index: 99; top: 0px;">
+        <div class="mdl-card__menu" style="position: absolute; z-index: 99; right:0;">
             {%include share_btn.html%}
 	</div>
 </div>
