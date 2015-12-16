@@ -19,15 +19,20 @@ section
   height: auto;
   width: auto;
 }
-.mdl-card__menu
-{
-  position: absolute;
-  z-index: 99;
-}
 </style>
 <h1>Blog</h1>
 {% for post in site.posts %}
 <section class="mdl-grid mdl-shadow--4dp">
+<div class= "mdl-card__menu" align="right">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
+              <i class="material-icons">share</i>
+            </button>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
+              <li class="mdl-menu__item">Facebook</li>
+              <li class="mdl-menu__item">Twitter</li>
+              <li class="mdl-menu__item">Google+</li>
+            </ul>
+</div>
             <div class="mdl-card mdl-cell">
                         <div class="mdl-card__supporting-text">
                         <p>{{ post.title }}</p>
@@ -38,16 +43,6 @@ section
                                Read
                         </a>
                         </div>
-</div>
-<div class= "mdl-card__menu" align="right">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
-              <i class="material-icons">share</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
-              <li class="mdl-menu__item">Facebook</li>
-              <li class="mdl-menu__item">Twitter</li>
-              <li class="mdl-menu__item">Google+</li>
-            </ul>
 </div>
 </section>
 {% endfor %}
