@@ -17,7 +17,7 @@ layout: default
               <i class="material-icons">share</i>
             </button>
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
-              <li class="mdl-menu__item fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="link">Facebook</li>
+              <a class="mdl-menu__item fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="link"><li>Facebook</li></a>
               <a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}"><li class="mdl-menu__item">Twitter</li></a>
               <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" style= "color: black;"><li class="mdl-menu__item">Google+</li></a>
