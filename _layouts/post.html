@@ -17,9 +17,9 @@ layout: default
               <i class="material-icons">share</i>
             </button>
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
-              <li class="mdl-menu__item">Facebook</li>
+              <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="link"><li class="mdl-menu__item">Facebook</li></div><li class="mdl-menu__item">Facebook</li>
               <li class="mdl-menu__item">Twitter</li>
-              <a href="https://plus.google.com/share?url=https://thedorkknightrises.github.io{{ page.url }}" onclick="javascript:window.open(this.href,
+              <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" style= "color: black;"><li class="mdl-menu__item">Google+</li></a>
             </ul>
 	</div>
@@ -32,3 +32,13 @@ layout: default
 <div class="notecomments">
 	{% include disqus.html %}	 
 </div>
+
+<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
