@@ -7,14 +7,13 @@ title: Blog | The Dork Knight Rises
   height: auto;
 }
 .mdl-card {
-  margin: 8px;
   padding: 8px;
   flex-grow: 1;
-  color: inherit;
 }
 section {
   height: auto;
   width: auto;
+  padding: 16px;
 }
 </style>
 <h1>Blog</h1>
@@ -37,7 +36,9 @@ section {
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
               <li class="mdl-menu__item">Facebook</li>
               <li class="mdl-menu__item">Twitter</li>
-              <li class="mdl-menu__item">Google+</li>
+              <li class="mdl-menu__item"><a href="https://plus.google.com/share?url={URL}" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img
+  src="https://www.gstatic.com/images/icons/gplus-64.png" alt="Share on Google+"/>Google+</a></li>
             </ul>
 	</div>
 </div>
