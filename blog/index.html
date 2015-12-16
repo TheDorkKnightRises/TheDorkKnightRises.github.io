@@ -8,6 +8,7 @@ title: Blog | The Dork Knight Rises
 }
 .mdl-card {
   margin: 8px;
+  padding: 8px;
   flex-grow: 1;
   color: inherit;
 }
@@ -25,11 +26,11 @@ section {
                         <p1>{{ post.date | date_to_string }}</p1>
                         </div>
                         <div class="mdl-card__actions">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
+                        <a class="mdl-button mdl-js-button mdl-card--border mdl-js-ripple-effect" href="{{ post.url }}">
                                Read
                         </a>
                         </div>
-                        <div class= "mdl-card__menu" align="right">
+        <div class= "mdl-card__menu" align="right">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
               <i class="material-icons">share</i>
             </button>
@@ -38,7 +39,7 @@ section {
               <li class="mdl-menu__item">Twitter</li>
               <li class="mdl-menu__item">Google+</li>
             </ul>
-</div>
+	</div>
 </div>
 </section>
 {% endfor %}
