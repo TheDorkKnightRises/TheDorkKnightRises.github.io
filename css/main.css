@@ -1,13 +1,13 @@
 body 
 { 
-margin: 60px auto; 
+margin: 20px auto; 
 width: 75%;
 height: 100%;
 } 
 nav ul
 { 
 font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
-padding: 0px; 
+padding: 4px; 
 list-style: none; 
 font-weight: bold;
 }
