@@ -29,29 +29,34 @@ a
 text-decoration: none; 
 color: white; 
 }
-h1 
+h1
+{ 
+font-size: 2.2em; 
+font-family:'Roboto', 'Roboto', 'Sans-Serif';
+} 
+h1w 
 { 
 font-size: 2.2em; 
 font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
 color: white;
 } 
-pb
+p
 { 
 font-size: 1.5em; 
 line-height: 1.4em; 
 color: #333; 
 }
-p 
+pw 
 { 
 font-size: 1.5em; 
 line-height: 1.4em; 
 color: white; 
 } 
-p1b
+p1
 {
   font-size:1.0em;
 }
-p1
+p1w
 {
   font-size:1.0em;
   color: white;
