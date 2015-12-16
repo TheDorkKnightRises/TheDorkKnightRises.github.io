@@ -13,14 +13,14 @@ layout: default
             <div class="mdl-color-text--grey-800">
               Blog &gt; {{ page.date | date_to_string }}
             </div>
-        <div class= "mdl-card__menu" align="right">
-            {%include share_btn.html%}
-	</div>
             <h1>{{ page.title }}</h1>
             <div class="post">
   		{{ content }}
 	    </div>
           </div>
+        <div class= "mdl-card__menu" align="right">
+            {%include share_btn.html%}
+	</div>
 </div>
 <br>
 <div class="notecomments">
