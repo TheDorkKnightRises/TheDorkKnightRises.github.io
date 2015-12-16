@@ -35,23 +35,23 @@ font-size: 2.2em;
 font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
 color: white;
 } 
-p 
+pb
 { 
 font-size: 1.5em; 
 line-height: 1.4em; 
 color: #333; 
 }
-pw 
+p 
 { 
 font-size: 1.5em; 
 line-height: 1.4em; 
 color: white; 
 } 
-p1
+p1b
 {
   font-size:1.0em;
 }
-p1w
+p1
 {
   font-size:1.0em;
   color: white;
