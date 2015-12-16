@@ -18,11 +18,9 @@ title: Blog | The Dork Knight Rises
             <div class="mdl-card mdl-cell">
                         <div class="mdl-card__title">
                         <p>{{ post.title }}</p>
+                        <p1>{{ post.date | date_to_string }}</p1>
                         </div>
-                        <div class="mdl-card__supporting-text">
-                        <p>{{ post.date | date_to_string }}</p>
-                        </div>
-                        <div class="mdl-card__actions">
+                        <div class="mdl-card__actions mdl-card--border">
                         <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
                                Read
                         </a>
