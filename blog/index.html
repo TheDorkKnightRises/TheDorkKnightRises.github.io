@@ -13,7 +13,6 @@ title: Blog | The Dork Knight Rises
 section {
   height: auto;
   width: auto;
-  margin: 16px;
 }
 </style>
 <h1>Blog</h1>
@@ -36,9 +35,8 @@ section {
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
               <li class="mdl-menu__item">Facebook</li>
               <li class="mdl-menu__item">Twitter</li>
-              <li class="mdl-menu__item"><a href="https://plus.google.com/share?url={URL}" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img
-  src="https://www.gstatic.com/images/icons/gplus-32.png" alt="Share on Google+"/>Google+</a></li>
+              <li class="mdl-menu__item"><a href="https://plus.google.com/share?url={{{ post.url}}}" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Google+</a></li>
             </ul>
 	</div>
 </div>
