@@ -12,11 +12,18 @@
     <div class="container">
     	{%include nav.html%}
     </div>
-
+<style>
+	.content
+	{
+		border-radius: 2px;
+  		padding: 16px 16px 12px 12px;
+	}
+</style>
+<div class="mdl-grid mdl-color--white mdl-shadow--4dp" style="position: relative;">
     <div class="container">
     	{{ content }}
     </div>
-  
+</div>
     <div class="container">
 	{%include footer.html%}
     </div>
