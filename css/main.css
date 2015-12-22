@@ -3,10 +3,11 @@ body
 margin: 40px auto;
 width: 80%;
 height: 100%;
+font-family:'Roboto', 'Sans-Serif'; 
 } 
 nav ul
 { 
-font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
+font-family:'Roboto', 'Sans-Serif'; 
 padding: 4px; 
 list-style: none; 
 font-weight: bold;
