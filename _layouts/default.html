@@ -26,7 +26,6 @@
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $("#feedback").outerHeight();
 
 $(window).scroll(function(event){
     didScroll = true;
@@ -48,13 +47,13 @@ function hasScrolled() {
     
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
+    if (st > lastScrollTop){
         // Scroll Down
-        $("#feedback").removeClass('nav-down').addClass('fab-up');
+        $("#feedback").fadeOut();
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $("#feedback").removeClass('fab-up').addClass('nav-down');
+            $("#feedback").fadeIn();
         }
     }
     
