@@ -49,11 +49,11 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop){
         // Scroll Down
-        $("#feedback").animate({bottom: '10px'}).fadeOut();
+        $("#feedback").fadeOut(2000).slideDown(2000).slideUp(2);
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $("#feedback").animate({top: '10px'}).fadeIn();
+            $("#feedback").fadeIn(2000).slideUp(2000).slideDown(2);
         }
     }
     
