@@ -45,10 +45,10 @@ function hasScrolled() {
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
     
-    if (st > lastScrollTop){
+    if (st > lastScrollTop && st != $(document).height() - $(window).height()){
         $("#feedback").fadeOut();
     } else {
-        if(st + $(window).height() <= $(document).height()) {
+        if(st + $(window).height() < $(document).height()) {
             $("#feedback").fadeIn();
         }
     }
