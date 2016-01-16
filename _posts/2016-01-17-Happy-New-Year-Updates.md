@@ -3,7 +3,7 @@ layout: post
 title: "Happy New Year (and Updates)!"
 date: 2015-12-17
 author: The Dork Knight Rises
-url: /blog/2016/01/Happy-New-Year/
+url: /blog/2016/01/Happy-New-Year-Updates/
 ---
 
 Happy New Year to everybody! Hope you are enjoying 2016 and continue to do so throughout the year.
