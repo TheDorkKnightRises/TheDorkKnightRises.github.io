@@ -22,30 +22,43 @@
     </div>
 
 <script>
+// Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
+var navbarHeight = $("#feedback").outerHeight();
+
 $(window).scroll(function(event){
-  didScroll = true;
+    didScroll = true;
 });
+
 setInterval(function() {
-  if (didScroll) {
-    hasScrolled();
-    didScroll = false;
-  }
-}, 500);
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
 function hasScrolled() {
-  var st = $(this).scrollTop();
-  if (Math.abs(lastScrollTop—st) <= delta)
-  return;
-  if (st > lastScrollTop){
-  $("#feedback").removeClass(‘fab-down’).addClass(‘fab-up’);
-} else {
-  if(st + $(window).height() < $(document).height()) { 
-    $("#feedback").removeClass(‘fab-up’).addClass(‘fab-down’);
-  }
-}
-  lastScrollTop = st;
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $("#feedback").removeClass('nav-down').addClass('fab-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $("#feedback").removeClass('fab-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
 }
 </script>
 <a class="typeform-share link" href="https://samriddhabasu.typeform.com/to/pfW0DA" data-mode="1" target="_blank">
