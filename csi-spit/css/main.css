@@ -72,3 +72,11 @@ footer
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
 }
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 400px;
+	margin: 20% auto;
+}
