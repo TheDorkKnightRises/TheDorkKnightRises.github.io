@@ -78,9 +78,10 @@ footer
 }
 .modalDialog > div {
 	width: 80%;
-	height: wrap;
+	height: auto;
 	margin: 10% auto;
 }
 .mdl-card {
-  flex-grow: 1;
+	height:auto;
+	flex-grow: 1;
 }
