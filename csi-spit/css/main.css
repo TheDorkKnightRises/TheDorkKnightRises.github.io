@@ -77,6 +77,6 @@ footer
 	pointer-events: auto;
 }
 .modalDialog > div {
-	width: 400px;
-	margin: 20% auto;
+	width: 80%;
+	margin: 10% auto;
 }
