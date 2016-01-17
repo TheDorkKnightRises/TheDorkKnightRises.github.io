@@ -81,3 +81,6 @@ footer
 	height: wrap;
 	margin: 10% auto;
 }
+.mdl-card {
+  flex-grow: 1;
+}
