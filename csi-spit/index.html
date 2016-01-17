@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSI-SPIT</title>
   <link rel="icon" type="image/png" href="/browseralt.png" />
   <link rel="shortcut icon" type="image/png" href="/browseralt.png" />
@@ -29,7 +29,7 @@
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="CSI-SPIT">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
     <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
@@ -39,25 +39,33 @@
 </head>
 
 
-<!-- Uses a transparent header that draws on top of the layout's background -->
 <style>
-.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
 }
 </style>
 
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--waterfall">
+    <!-- Top row, always visible -->
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">CSI-SPIT</span>
-      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="waterfall-exp">
+        </div>
+      </div>
+    </div>
+    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row">
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
@@ -68,8 +76,11 @@
       </nav>
     </div>
   </header>
+ 
   <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
   </main>
 </div>
 
 </html>
+Status 
