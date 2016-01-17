@@ -78,6 +78,6 @@ footer
 }
 .modalDialog > div {
 	width: 80%;
-	height: auto;
-	margin: 10% auto;
+	height: wrap;
+	margin-left: 10% auto;
 }
