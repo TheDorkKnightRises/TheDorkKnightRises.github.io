@@ -5,27 +5,9 @@ date: 2015-12-26
 author: The Dork Knight Rises
 url: /blog/2015/12/Phonograph-Material-Music-Player-Update/
 ---
-<style>
-@media only screen
-and (max-device-width : 480px) {
-a
-{
-  width: 100%;
-  height: auto;
-}
-}
-@media only screen
-and (min-device-width : 480px) {
-a
-{
-  width: auto;
-  height: auto;
-}
-}
-</style>
 
 Made this video showing off the new Now Playing screen and animations in the latest Beta release of Phonograph Music Player cuz I was bored and not sleepy (even though it's past 4 AM) :P﻿
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Rheb3wQEjNU
 " target="_blank" style="width: auto; height: auto;"><img src="http://img.youtube.com/vi/Rheb3wQEjNU/0.jpg" 
-alt="Click here" border="2" /></a>
+alt="Click here" width="100%" border="2" /></a>
