@@ -77,11 +77,10 @@ footer
 	pointer-events: auto;
 }
 .modalDialog > div {
-	width: 80%;
-	height: auto;
-	margin: 10% auto;
 }
 .mdl-card {
-	height:auto;
+	width: 80%;
+	height: 80%;
+	margin: 10% auto;
 	flex-grow: 1;
 }
