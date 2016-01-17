@@ -18,6 +18,12 @@
   <meta property="og:description"   content="CSI-SPIT" />
   <meta property="og:image"         content="/browseralt.png" />
 
+<!-- Force Secure Socket Layer encryption -->
+<script>
+var host = "csi.spit.ac.in";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https:";
+</script>
 
 <!-- jQuery script -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -85,4 +91,39 @@
   </main>
 </div>
 
+
+<style>
+	ul li a:hover 
+	{ 
+		text-decoration: none; 
+	}
+	footer ul
+	{ 
+		font-family:'Roboto', 'Roboto', 'Sans-Serif'; 
+		padding: 0px; 
+		list-style: none; 
+		font-weight: bold; 
+	}
+	footer ul li
+	{ 
+		display: inline;
+	} 
+</style>
+<footer>
+<br>
+  <font color="black"><b>© Copyright</b> Sardar Patel Institute of Technology.</font>
+<ul>
+  <li><button class="mdl-button mdl-button--colored" disabled>
+  	<font color="black" size="1.8em"><b>Links:</b></font>
+      </button>
+  </li>
+  <li>
+    <a href="https://thedorkknightrises.github.io/credits/">
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+      <font color="black" size="1.9em">Credits
+    </button>
+    </a>
+  </li>
+</ul>
+</footer>
 </html>
