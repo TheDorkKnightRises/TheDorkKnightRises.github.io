@@ -3,6 +3,7 @@ layout: post
 title: "I'm Going On An Adventure!"
 date: 2016-02-03
 author: The Dork Knight Rises
+url: /blog/2016/02/03/Going-On-An-Adventure/
 ---
 
 >Then something Tookish woke up inside him, 
