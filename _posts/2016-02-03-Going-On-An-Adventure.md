@@ -25,8 +25,8 @@ So here's the deal: this means I have a LOT more workload now... though the prog
 <br><br>
 <b>NOTE:</b> This blog post was not sponsored or anything, and all of its contents are my own personal opinion
 <div style="border-top: 1px solid #d5d5d5;"></div>
-- If you don't know about Udacity, it's a great place for online courses on everything from Web Development to Git to Android, built in collaboration with industry experts. They even offer paid Nanodegree courses, project-focused courses which allow you to expand your portfolio and earn industry-recognized credentials certified by big names like Google, Amazon, AT&T etc.
-<br>Check them out here: [Udacity](https://www.udacity.com/ "Udacity")
-<br>- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree--nd801 "AND")
-<br>- [All courses](https://www.udacity.com/courses/all "Udacity courses")
+- [Udacity](https://www.udacity.com/ "Udacity")
+<br>If you don't know about Udacity, it's a great place for online courses on everything from Web Development to Git to Android, built in collaboration with industry experts. They even offer paid Nanodegree courses, project-focused courses which allow you to expand your portfolio and earn industry-recognized credentials certified by big names like Google, Amazon, AT&T etc.
+- [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree--nd801 "AND")
+- [All courses](https://www.udacity.com/courses/all "Udacity courses")
 
