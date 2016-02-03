@@ -5,7 +5,7 @@ date: 2016-02-03
 author: The Dork Knight Rises
 ---
 
-> <div style="font-size: 0.6em; line-height: 0.7em;">Then something Tookish woke up inside him, and he wished to go and see the great mountains, and hear the pine-trees and the waterfalls, and explore the caves, and wear a sword instead of a walking-stick</div>
+> <div style="font-size: 0.9em; line-height: 1.0em;">Then something Tookish woke up inside him, and he wished to go and see the great mountains, and hear the pine-trees and the waterfalls, and explore the caves, and wear a sword instead of a walking-stick</div>
 
 <br>
 So if you are a developer/coding enthusiast living in India, you may have heard about this:<br>
