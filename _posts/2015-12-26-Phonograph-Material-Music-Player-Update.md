@@ -3,7 +3,6 @@ layout: post
 title: "Phonograph Material Music Player Update: 0.9.50"
 date: 2015-12-26
 author: The Dork Knight Rises
-url: /blog/2015/12/Phonograph-Material-Music-Player-Update/
 ---
 
 Made this video showing off the new Now Playing screen and animations in the latest Beta release of Phonograph Music Player cuz I was bored and not sleepy (even though it's past 4 AM) :P﻿
