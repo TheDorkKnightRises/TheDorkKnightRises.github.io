@@ -23,11 +23,10 @@ So here's the deal: this means I have a LOT more workload now... though the prog
 <br>(Sure hope so...)
 <br>That's about it for now...I'll leave some links down below for you to check out if interested.
 <br><br>
-
+Note: This blog post was not sponsored or anything, and all of its contents are my own personal opinion
 <div style="border-top: 1px solid #d5d5d5;"></div>
 - [Udacity](https://www.udacity.com/ "Udacity")
 <br>If you don't know about Udacity, it's a great place for online courses on everything from Web Development to Git to Android, built in collaboration with industry experts. They even offer paid Nanodegree courses, project-focused courses which allow you to expand your portfolio and earn industry-recognized credentials certified by big names like Google, Amazon, AT&T etc.
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree--nd801 "AND")
 - [All courses](https://www.udacity.com/courses/all "Udacity courses")
 
-<b size="0.8em">NOTE:</b> This blog post was not sponsored or anything, and all of its contents are my own personal opinion
