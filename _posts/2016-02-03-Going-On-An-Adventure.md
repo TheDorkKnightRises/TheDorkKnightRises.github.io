@@ -5,13 +5,7 @@ date: 2016-02-03
 author: The Dork Knight Rises
 ---
 
-<p1>
->Then something Tookish woke up inside him, 
->and he wished to go and see the great mountains, 
->and hear the pine-trees and the waterfalls, 
->and explore the caves, and wear a sword 
->instead of a walking-stick
-</p1>
+> <p1>Then something Tookish woke up inside him, and he wished to go and see the great mountains, and hear the pine-trees and the waterfalls, and explore the caves, and wear a sword instead of a walking-stick</p1>
 
 So if you are a developer/coding enthusiast living in India, you may have heard about this:<br>
 [Google and Tata Trusts offering 1000 scholarships for Android Nanodegree course at Udacity](http://saltmarchi.com/bespokePacks/Google/Udacity/eDM/invite.html "Link")
