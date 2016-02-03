@@ -30,4 +30,4 @@ So here's the deal: this means I have a LOT more workload now... though the prog
 - [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree--nd801 "AND")
 - [All courses](https://www.udacity.com/courses/all "Udacity courses")
 
-<b>NOTE:</b> This blog post was not sponsored or anything, and all of its contents are my own personal opinion
+<b size="0.8em">NOTE:</b> This blog post was not sponsored or anything, and all of its contents are my own personal opinion
