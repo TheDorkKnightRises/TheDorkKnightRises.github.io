@@ -9,7 +9,6 @@ author: The Dork Knight Rises
 
 So if you are a developer/coding enthusiast living in India, you may have heard about this:<br>
 [Google and Tata Trusts offering 1000 scholarships for Android Nanodegree course at Udacity](http://saltmarchi.com/bespokePacks/Google/Udacity/eDM/invite.html "Link")
-
 <br><br>
 Well, guess what? I applied for it. There were steps, like trials of sorts. First one has to take an online assessment to see if they have the pre-requisite knowledge, then there was a face-to-face video conference interview with some Googlers, and then after a couple weeks of waiting I recieved a mail telling me that I'd qualified.<br><br>
 Yup, that's right! I got selected among THOUSANDS of other applicants! How awesome is that?
