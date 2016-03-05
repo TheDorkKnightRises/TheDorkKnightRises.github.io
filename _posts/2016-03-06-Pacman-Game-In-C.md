@@ -49,6 +49,7 @@ Coded the most basic one which follows a simple chase algorithm.</li>
 <li>Tuesday: Added two more ghosts, one of whose AI logic is completely made up by me :P</li>
 <li>Wednesday: Added some music and stuff. We're done here.</li>
 <li>Thursday: Presented out game to the class. Everyone loved it, some people came up to me to play it on my laptop. Yaay, successful!</li>
+<ul>
 
 <br>So yeah, that's the story of how I made my first game 
 <br>(Well, I had a phase around 8 years back when I messed around in CryEngine/UDk/Unity a LOT.
