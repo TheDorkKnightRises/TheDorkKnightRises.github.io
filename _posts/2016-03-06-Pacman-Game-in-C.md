@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pacman Game in C"
-date: 2015-12-26
+date: 2016-03-06
 author: The Dork Knight Rises
 ---
 
@@ -14,7 +14,7 @@ And as luck would have it, MY group got what is arguably the most complex projec
 <br>Just to be clear, we are halfway through the introduction to basic C constructs, 
 learning about loops and conditionals and just started with the concept of pointers...and we're told to make a friggin game.
 <br>
-<img style="width: auto; height: auto;" src="http://i.imgur.com/bi4CRbu.jpg?1" alt="Challenge Accepted" width="100%" />
+<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt="Challenge Accepted" width="100%" />
 <br>
 Now, I have a fair bit of experience of experience in Java, and I'm confident I could make a Pacman game in Java.
 But working without the concept of objects was new to me, also I had never worked with graphics before, so it was pretty daunting,
