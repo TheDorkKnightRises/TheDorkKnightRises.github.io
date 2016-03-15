@@ -2,7 +2,9 @@ name: The Dork Knight Rises
 encoding: UTF-8
 markdown: kramdown
 paginate: 5
+paginate_path: "/blog/page:num/"
 permalink: /blog/:year/:month/:day/:title
 url: https://thedorkknightrises.github.io
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
