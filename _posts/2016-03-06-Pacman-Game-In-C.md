@@ -13,9 +13,11 @@ And as luck would have it, MY group got what is arguably the most complex projec
 <br> We had to create a clone of the classic arcade game Pacman in C, within a month.
 <br><br>Just to be clear, we are halfway through the introduction to basic C constructs, 
 learning about loops and conditionals and just started with the concept of pointers...and we're told to make a friggin game.
+
 <br><br>
-<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt="Challenge Accepted" width="50%" style="margin: 0 auto;"/>
+{:.center}<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt="Challenge Accepted" width="305px" max-width="100%"/>
 <br><br>
+
 Now, I have a fair bit of experience of experience in Java, and I'm confident I could make a Pacman game in Java.
 But working without the concept of objects was new to me, also I had never worked with graphics before, so it was pretty daunting,
 what with my teammates assuming that I was a "pro coder" and all. No pressure.
@@ -58,3 +60,6 @@ And of course my first complete game was made with GameMaker: a game very simila
 <br>The code for the game is open source under GPLv3 license. Find it here:
 <br><a href="https://github.com/TheDorkKnightRises/paC-man">paC-man on GitHub</a>
 
+.center {
+  text-align: center;
+}
