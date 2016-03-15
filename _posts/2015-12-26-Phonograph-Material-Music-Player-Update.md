@@ -9,4 +9,4 @@ Made this video showing off the new Now Playing screen and animations in the lat
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Rheb3wQEjNU
 " target="_blank" style="width: auto; height: auto;"><img src="http://img.youtube.com/vi/Rheb3wQEjNU/0.jpg" 
-alt="Click here" width="100%" border="2" /></a>
+alt="Click here" width="75%" border="2" /></a>
