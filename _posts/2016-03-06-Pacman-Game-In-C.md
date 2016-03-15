@@ -15,7 +15,8 @@ And as luck would have it, MY group got what is arguably the most complex projec
 learning about loops and conditionals and just started with the concept of pointers...and we're told to make a friggin game.
 
 <br><br>
-{:.center}<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt="Challenge Accepted" width="305px" max-width="100%"/>
+{:.center}
+![Challenge Accepted](http://i.imgur.com/bi4CRbu.jpg?1)
 <br><br>
 
 Now, I have a fair bit of experience of experience in Java, and I'm confident I could make a Pacman game in Java.
@@ -54,7 +55,7 @@ Coded the most basic one which follows a simple chase algorithm.</li>
 </ul>
 
 <br>So yeah, that's the story of how I made my first game 
-<br>(Well, I had a phase around 8 years back when I messed around in CryEngine/UDk/Unity a LOT.
+<br>(Well, I had a phase around 8 years back when I messed around in CryEngine/UDK/Unity a LOT.
 And of course my first complete game was made with GameMaker: a game very similar to Pacman, where a Knight had to rescue a certain Princess from a maze patrolled by the "Meanies". But game engines make things about a 100 times easier than actually typing the code from scratch)
 
 <br>The code for the game is open source under GPLv3 license. Find it here:
