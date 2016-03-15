@@ -15,7 +15,7 @@ And as luck would have it, MY group got what is arguably the most complex projec
 learning about loops and conditionals and just started with the concept of pointers...and we're told to make a friggin game.
 
 <br><br>
-<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt-text="Challenge Accepted" max-width="240px">
+<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt-text="Challenge Accepted" width="80%">
 <br><br>
 
 Now, I have a fair bit of experience of experience in Java, and I'm confident I could make a Pacman game in Java.
