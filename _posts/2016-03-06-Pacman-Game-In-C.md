@@ -15,8 +15,7 @@ And as luck would have it, MY group got what is arguably the most complex projec
 learning about loops and conditionals and just started with the concept of pointers...and we're told to make a friggin game.
 
 <br><br>
-{:.center}
-![Challenge Accepted](http://i.imgur.com/bi4CRbu.jpg?1)
+-><img src="http://i.imgur.com/bi4CRbu.jpg?1" alt-text="Challenge Accepted"><-
 <br><br>
 
 Now, I have a fair bit of experience of experience in Java, and I'm confident I could make a Pacman game in Java.
@@ -61,6 +60,3 @@ And of course my first complete game was made with GameMaker: a game very simila
 <br>The code for the game is open source under GPLv3 license. Find it here:
 <br><a href="https://github.com/TheDorkKnightRises/paC-man">paC-man on GitHub</a>
 
-.center {
-  text-align: center;
-}
