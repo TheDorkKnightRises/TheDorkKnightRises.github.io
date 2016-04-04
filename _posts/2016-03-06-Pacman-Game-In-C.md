@@ -18,7 +18,7 @@ learning about loops and conditionals and just started with the concept of point
 <img src="http://i.imgur.com/bi4CRbu.jpg?1" alt-text="Challenge Accepted" max-width="305px" width="70%">
 <br><br>
 
-Now, I have a fair bit of experience of experience in Java, and I'm confident I could make a Pacman game in Java.
+Now, I have a fair bit of experience with Java, and I'm confident I could make a Pacman game in it.
 But working without the concept of objects was new to me, also I had never worked with graphics before, so it was pretty daunting,
 what with my teammates assuming that I was a "pro coder" and all. No pressure.
 
