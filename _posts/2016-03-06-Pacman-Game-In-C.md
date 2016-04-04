@@ -50,7 +50,7 @@ We're going out of our minds with tension, but I don't have time to work on the 
 Coded the most basic one which follows a simple chase algorithm.</li>
 <li>Tuesday: Added two more ghosts, one of whose AI logic is completely made up by me :P</li>
 <li>Wednesday: Added some music and stuff. We're done here.</li>
-<li>Thursday: Presented out game to the class. Everyone loved it, some people came up to me to play it on my laptop. Yaay, successful!</li>
+<li>Thursday: Presented our game to the class. Everyone loved it, some people came up to me to play it on my laptop. Yaay, successful!</li>
 </ul>
 
 <br>So yeah, that's the story of how I made my first game 
