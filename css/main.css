@@ -55,7 +55,7 @@ list-style: none;
 	-webkit-transition: opacity 250ms ease-in;
 	-moz-transition: opacity 250ms ease-in;
 	transition: opacity 250ms ease-in;
-	pointer-events: none;
+	pointer-events: auto;
 }
 .modalDialog:target {
 	opacity:1;
