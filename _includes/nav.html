@@ -35,13 +35,15 @@
 	</li>
         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="search">
   		<i class="material-icons">search</i>
+  		<a href="#shareModal">
 	</button>
-	<div class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="search">
-		<div class="mdl-menu__item">
-  			<script>
+	<div id="shareModal" class="modalDialog">
+	<div class="mdl-card mdl-cell mdl-shadow--8dp" style="position: absolute; margin: 10%;">
+                <div class="mdl-card__supporting-text" style="position: relative; top: 8px; margin-left: -8px; margin-bottom: 8px">
+			<script>
   			(function() {
-  			var cx = '016805155809127420372:nqnhqz9yj9w';
-			var gcse = document.createElement('script');
+    			var cx = '016805155809127420372:nqnhqz9yj9w';
+    			var gcse = document.createElement('script');
     			gcse.type = 'text/javascript';
     			gcse.async = true;
     			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
@@ -49,8 +51,15 @@
     			s.parentNode.insertBefore(gcse, s);
   			})();
 			</script>
-		</div>
-	<gcse:search></gcse:search>
+			<gcse:search></gcse:search>
+                </div>
+                <div class="mdl-card__actions">
+                        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect close" style="position: absolute; right: 12px; bottom: 8px;" href="#close" title="Close">
+                               <b>Close</b>
+                        </a>
+               	</div>
 	</div>
+	</div>
+
   </ul>
 </nav>
