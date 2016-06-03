@@ -33,12 +33,14 @@
 		</button>
 	</a>
 	</li>
-  	<li>
-  	<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="margin-left:auto; margin-right:0;" id="search">
-  	<i class="material-icons">search</i>
-  	</button>
-	<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="search">
-  	<div>{%include search.html%}</div>
-  	</li>
-  	</ul>
+  </ul>
+  	<!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
 </nav>
