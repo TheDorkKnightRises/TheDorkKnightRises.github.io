@@ -4,19 +4,7 @@ margin: 40px auto;
 width: 85%;
 height: 100%;
 font-family: 'Roboto', Verdana, Arial, sans-serif; 
-} 
-nav ul
-{ 
-font-family: 'Roboto', Verdana, Arial, sans-serif; 
-padding: 4px; 
-list-style: none; 
-font-weight: bold;
 }
-nav ul li
-{ 
-display: inline; 
-margin-right: 16px;
-} 
 a 
 { 
 text-decoration: none;
@@ -50,7 +38,7 @@ list-style: none;
 	bottom: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
-	z-index: 99999;
+	z-index: 999;
 	opacity:0;
 	-webkit-transition: opacity 250ms ease-in;
 	-moz-transition: opacity 250ms ease-in;
