@@ -16,18 +16,21 @@ layout: default
   		padding: 16px 16px 12px 12px;
 	}
 </style>
-<meta itemprop="url" content="{{ page.url }}">
+<meta itemprop="url" content="https://thedorkknightrises.github.io{{ page.url }}">
 <div class="mdl-grid mdl-color--white mdl-shadow--8dp" style="position: relative;">
           <div class="content mdl-color-text--grey-800">
             <div class="mdl-color-text--grey-500">
               <p1>Blog &gt; <span itemprop="datePublished" content="{{ page.date }}">{{ page.date | date_to_string }}</span></p1>
             </div>
-            <h1 itemprop="name">{{ page.title }}</h1>
+            <h1 itemprop="name headline">{{ page.title }}</h1>
             <div class="post">
   		<span itemprop="articleBody">
   			{{ content }}
   		</span>
 	    </div>
+	    <span itemprop="author" content="Samriddha Basu"></span>
+	    <span itemprop="publisher" content="Samriddha Basu"></span>
+	    <span itemprop="image" content="http://thedorkknightrises.github.io/browseralt.png"></span>
           </div>
         <div class="mdl-card__menu" style="position: absolute; z-index: 99; right:16px;">
             {%include share_btn.html%}
