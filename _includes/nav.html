@@ -33,22 +33,20 @@
 		</button>
 	</a>
 	</li>
-	<a href="#shareModal">
+	<a>
 		<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="search">
   		<i class="material-icons">search</i>
 		</button>
 	</a>
-	<div id="shareModal" class="modalDialog">
-	<div class="mdl-card mdl-cell mdl-shadow--8dp" style="position: absolute; height: 80%; width: 90%; margin: 5%; overflow: auto;">
+	<div class="modalDialog mdl-card mdl-cell mdl-shadow--8dp" style="position: absolute; height: 80%; width: 90%; margin: 5%; overflow: auto;" for="search">
                 <div style="position: relative; top: 8px; margin-left: -8px; margin-bottom: 8px">
 			{%include search.html%}
                 </div>
-                <div class="mdl-card__actions">
-                        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect close" style="position: fixed; right: 12px; bottom: 8px;" href="#close" title="Close">
-                               <b>Close</b>
-                        </a>
-               	</div>
-	</div>
+                <a style="position: fixed; right: 12px; top: 8px;" href="#close">
+                	<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+  			<i class="material-icons">close</i>
+			</button>
+                </a>
 	</div>
 
   </ul>
