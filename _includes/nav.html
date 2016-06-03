@@ -36,19 +36,21 @@
         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="search">
   		<i class="material-icons">search</i>
 	</button>
-	<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="search">
-  	<script>
-  		(function() {
-  		var cx = '016805155809127420372:nqnhqz9yj9w';
-		var gcse = document.createElement('script');
-    		gcse.type = 'text/javascript';
-    		gcse.async = true;
-    		gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    		var s = document.getElementsByTagName('script')[0];
-    		s.parentNode.insertBefore(gcse, s);
-  		})();
-	</script>
+	<div class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="search">
+		<div class="mdl-menu__item">
+  			<script>
+  			(function() {
+  			var cx = '016805155809127420372:nqnhqz9yj9w';
+			var gcse = document.createElement('script');
+    			gcse.type = 'text/javascript';
+    			gcse.async = true;
+    			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    			var s = document.getElementsByTagName('script')[0];
+    			s.parentNode.insertBefore(gcse, s);
+  			})();
+			</script>
+		</div>
 	<gcse:search></gcse:search>
-	</ul>
+	</div>
   </ul>
 </nav>
