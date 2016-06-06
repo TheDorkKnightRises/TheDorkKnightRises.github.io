@@ -3,34 +3,68 @@ layout: default
 title: About | The Dork Knight Rises
 ---
 <style>
-
-.demo-card-wide.mdl-card {
-  height: 320px;
+.content-grid {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .demo-card-wide > .mdl-card__title {
-  text-align: center;
+  position: absolute;
+  top: 0px;
   height: 150px;
+  width: 100%;
   background: url('http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-Material-Design-Wallpaper-6.png') center / cover;
+}
+.mdl-card__actions ul li {
+  display: inline;
 }
 </style>
 
 <h1>About</h1>
-<div class="content-grid mdl-grid" style="padding: 0px auto; margin: 0px auto;">
-    <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone demo-card-wide mdl-card mdl-shadow--4dp" style="position: relative; width: 100%; text-align:center;">
-        <img style="z-index:99; position: absolute; top: 32px; left: 0; right: 0; margin: 0 auto; max-width: 128px; max-height: 128px; border-radius: 64px;" src="profile.jpeg" class="mdl-shadow--8dp">
-        <div class="mdl-card__title"">
+<div class="content-grid mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone demo-card-wide mdl-card mdl-shadow--8dp">
+        <img style="z-index:99; position: relative; top: 32px; left: 0; right: 0; margin: 0 auto; max-width: 128px; max-height: 128px; border-radius: 64px;" src="profile.jpeg" class="mdl-shadow--8dp">
+        <div class="mdl-card__title">
         </div>
-        <div class="mdl-card__supporting-text" style="position: absolute; top: 160px; left: 0; right: 0; margin: 0 auto;">
+		<div style="position: relative; top: 32px; width: 100%; margin: 0 auto; text-align: center;">
+        <div class="mdl-card__supporting-text" style="padding: 0 auto; margin: 0 auto; margin-bottom: 24px;">
             <div>
-            <p style="font-size: 2.0em;">Samriddha Basu</p>
+            <p style="font-size: 2.0em; margin: 0 auto;">Samriddha Basu</p>
             <p>(The Dork Knight Rises)</p>
-            </div>
-            <div>
-            <p1 style="font-size:1.2em;"><i>It's not who you are underneath, but what you <b>do</b>, that defines you</i></p1>
+			<p1 style="font-size:1.2em;"><i>It's not who you are underneath, but what you <b>do</b>, that defines you</i></p1>
             </div>
         </div>
+		</div>
+		<div style="position: relative; top: 16px; height: 100%; width: 100%; margin: 0 auto; text-align: center;">
+			<div class="mdl-card__actions mdl-card--border" style="margin: 0 auto; padding: 0 auto;">
+				<ul style="list-style: none; margin: 0; margin-bottom: 16px; padding: 0;">
+                <li>
+					<a id="gplus" href="https://plus.google.com/+SamriddhaBasu">
+					<button class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+					<font size="2.0em"><strong>Google+</strong></font>
+					</button>
+					</a>
+				</li>
+				<li>
+					<a id="linkedin" href="https://in.linkedin.com/in/samriddha-basu-6011a4113">
+					<button class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+					<font size="2.0em"><strong>LinkedIn</strong></font>
+					</button>
+					</a>
+				</li>
+				<li>
+					<a id="github" href="https://github.com/TheDorkKnightRises">
+					<button class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+					<font size="2.0em"><strong>GitHub</strong></font>
+					</button>
+					</a>
+				</li>
+				</ul>
+			</div>
+		</div>
     </div>
-    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--4dp" style="position: relative; height: 100%;">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--8dp">
         <div class="mdl-card__supporting-text">
             <div>
               <p>Introduction</p>
@@ -38,7 +72,7 @@ title: About | The Dork Knight Rises
             </div>
         </div>
     </div>
-    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--4dp" style="position: relative;">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--8dp">
         <div class="mdl-card__supporting-text">
             <div>
               <p>Education</p>
@@ -51,7 +85,14 @@ title: About | The Dork Knight Rises
             </div>
         </div>
     </div>
+					<div class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large" for="gplus">
+					Catch me on <strong>Google+</strong>
+					</div>
+					<div class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large" for="linkedin">
+					Connect with me
+					</div>
+					<div class="mdl-tooltip mdl-tooltip--top mdl-tooltip--large" for="github">
+					See my open-source contributions
+					</div>
 </div>
-<div style="text-align: center; font-size: 0.8em;">
-    <p1>My personal website and blog. Powered by GitHub Pages.</p1>
-</div>
+
