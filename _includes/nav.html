@@ -1,101 +1,86 @@
 <style type="text/css">
-  .demo-ribbon {
-    width: 100%;
-    height: 40vh;
-    background-color: #3F51B5;
-    flex-shrink: 0;
-  }
+	.demo-ribbon {
+		width: 100%;
+		height: 40vh;
+		background-color: #3F51B5;
+		flex-shrink: 0;
+	}
 
-  .demo-main {
-    margin-top: -35vh;
-    flex-shrink: 0;
-  }
+	.demo-main {
+		margin-top: -35vh;
+		flex-shrink: 0;
+	}
 
-  .demo-header .mdl-layout__header-row {
-    padding-left: 40px;
-  }
+	.demo-header .mdl-layout__header-row {
+		padding-left: 40px;
+	}
 
-  .demo-container {
-    max-width: 1600px;
-    width: calc(100% - 16px);
-    margin: 0 auto;
-  }
+	.bar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 100%; 
+		height: 240px;  
+		z-index: -999;
+	}
 
-  .demo-content {
-    border-radius: 2px;
-    padding: 80px 56px;
-    margin-bottom: 80px;
-  }
-
-  .demo-layout.is-small-screen .demo-content {
-    padding: 40px 28px;
-  }
-
-  .bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
-    width: 100%; 
-    height: 240px;  
-    z-index: -999;
-  }
-
-  .mdl-textfield__label:after {
-    background-color: #ffffff;
-  }
+	.mdl-textfield__label:after {
+		background-color: #ffffff;
+	}
 </style>
-
-<header class="demo-header mdl-layout__header mdl-layout--fixed-header mdl-layout__header--scroll mdl-color--primary mdl-shadow--4dp">
-  <div class="mdl-layout__header-row">
-    <nav class="mdl-navigation">
-      <a href="/" class="mdl-navigation__link">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-          <b>Home</b>
-        </button>
-      </a>
-      <a href="/blog/" class="mdl-navigation__link">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-          <b>Blog</b>
-        </button>
-      </a>
-      <a href="/about/" class="mdl-navigation__link">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-          <b>About</b>
-        </button>
-      </a>
-    </nav>
-    <div class="mdl-layout-spacer"></div>
-      <button type="button" class="mdl-button mdl-button--white mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="search" onclick="showSearch();">
-        <i class="material-icons">search</i>
-      </button>
-  </header>
-  <div class="mdl-layout-spacer mdl-color--primary bar"></div>
-  <div id="searchModal" class="modalDialog">
-    <div class="mdl-card mdl-cell mdl-shadow--8dp" style="position: absolute; max-height: 90%; width: 90%; margin: 5%; overflow: auto;">
-      <div style="position: relative; top: 8px; margin-left: -8px; margin-bottom: 8px">
-        {%include search.html%}
-      </div>
-    </div>
-    <a style="position: fixed; right: 12px; top: 12px; z-index:9999">
-      <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" onclick="hideSearch();">
-        <i class="material-icons">close</i>
-      </button>
-    </a>
-  </div>
+<div class="mdl-layout mdl-layout--fixed-header">
+	<header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--primary mdl-shadow--4dp">
+		<div class="mdl-layout__header-row">
+			<nav class="mdl-navigation">
+				<a href="/" class="mdl-navigation__link">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+						<b>Home</b>
+					</button>
+				</a>
+				<a href="/blog/" class="mdl-navigation__link">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+						<b>Blog</b>
+					</button>
+				</a>
+				<a href="/about/" class="mdl-navigation__link">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+						<b>About</b>
+					</button>
+				</a>
+			</nav>
+			<div class="mdl-layout-spacer"></div>
+			<button type="button" class="mdl-button mdl-button--white mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="search" onclick="showSearch();">
+				<i class="material-icons">search</i>
+			</button>
+		</header>
+	</div>
+	<div class="mdl-layout-spacer mdl-color--primary bar"></div>
+	<div id="searchModal" class="modalDialog">
+		<div class="mdl-card mdl-cell mdl-shadow--8dp" style="position: absolute; max-height: 90%; width: 90%; margin: 5%; overflow: auto;">
+			<div style="position: relative; top: 8px; margin-left: -8px; margin-bottom: 8px">
+				{%include search.html%}
+			</div>
+		</div>
+		<a style="position: fixed; right: 12px; top: 12px; z-index:9999">
+			<button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" onclick="hideSearch();">
+				<i class="material-icons">close</i>
+			</button>
+		</a>
+	</div>
 </div>
 <script type="text/javascript">
-  var element;
-    function showSearch() {
-      element = document.getElementById('searchModal');
-      element.style.display='block';
-      return false;
-    }
-  </script>
+	var element;
+	function showSearch() {
+		element = document.getElementById('searchModal');
+		element.style.display='block';
+		return false;
+	}
+</script>
 
-  <script type="text/javascript">
-    function hideSearch() {
-      document.getElementById('searchModal').style.display='none';
-      return false;
-    }
-  </script>
+<script type="text/javascript">
+	function hideSearch() {
+		document.getElementById('searchModal').style.display='none';
+		return false;
+	}
+</script>
