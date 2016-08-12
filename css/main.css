@@ -1,9 +1,18 @@
 body 
 { 
-margin: 40px auto;
+padding-top: 80px;
+margin: 0 auto;
 width: 85%;
 height: 100%;
 font-family: 'Roboto', Verdana, Arial, sans-serif; 
+}
+body header
+{
+position: fixed;
+top: 0;
+left: 0;
+margin: 0 auto;
+width: 100%;
 }
 a 
 { 
@@ -31,6 +40,7 @@ ul.posts li
 list-style: none;
 }
 .modalDialog {
+	display: none;
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
@@ -39,13 +49,9 @@ list-style: none;
 	left: 0;
 	background: rgba(0,0,0,0.8);
 	z-index: 999;
-	opacity:0;
-	-webkit-transition: opacity 250ms ease-in;
-	-moz-transition: opacity 250ms ease-in;
-	transition: opacity 250ms ease-in;
-	pointer-events: none;
-}
-.modalDialog:target {
-	opacity:1;
+	opacity: 1;
+	-webkit-transition: display 250ms ease-in;
+	-moz-transition: display 250ms ease-in;
+	transition: display 250ms ease-in;
 	pointer-events: auto;
 }
