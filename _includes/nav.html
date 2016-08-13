@@ -18,9 +18,14 @@
 		z-index: 999;
 	}
 
-	@media screen and (max-width: 375px) {
+	@media screen and (max-width: 450px) {
 		.mdl-layout__header-row .mdl-navigation__link {
 			padding: 0 8px;
+		}
+		.mdl-layout__header {
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+			-ms-overflow-style: -ms-autohiding-scrollbar;
 		}
 	}
 
@@ -50,6 +55,11 @@
 				<a href="/blog/" class="mdl-navigation__link" id="blogButton">
 					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
 						<b>Blog</b>
+					</button>
+				</a>
+				<a href="/projects/" class="mdl-navigation__link" id="projectsButton">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
+						<b>Projects</b>
 					</button>
 				</a>
 				<a href="/about/" class="mdl-navigation__link" id="aboutButton">
