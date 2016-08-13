@@ -15,7 +15,7 @@ And as luck would have it, MY group got what is arguably the most complex projec
 learning about loops and conditionals and just started with the concept of pointers...and we're told to make a friggin game.
 
 <br><br>
-<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt-text="Challenge Accepted" max-width="305px" width="70%">
+<img src="http://i.imgur.com/bi4CRbu.jpg?1" alt-text="Challenge Accepted" style="width: auto; height: auto; max-width: 320px;">
 <br><br>
 
 Now, I have a fair bit of experience with Java, and I'm confident I could make a Pacman game in it.
@@ -37,16 +37,16 @@ The deadline is pushed back by a week, cuz of the Term tests. Gotta present the 
 Other teammate also starts working on basic graphics and animations.
 They haven't yet figured how to restrict the motion of the Pacman between the walls of the maze, or to make the pellets vanish on being eaten.
 We're going out of our minds with tension, but I don't have time to work on the project cuz I'm catching up on all the homework and stuff I missed when out of town.
-<br>Friday evening: 
+<br><br>Friday evening: 
 <ul>
 <li>08:30 PM: Sit down in front of laptop, start reading up documentation for graphics.h functions.</li>
 <li>00:30 AM: Launch Turbo C++, the only program capable of compiling our ancient level of code. Start typing...</li>
 <li>05:30 AM: Aaaand, RUN. The maze, the movement of the Pacman, the pellets, the scoring, it's all done. Only the ghosts remaining, then just a lot of polishing needed.</li>
 </ul>
-<br>Saturday and Sunday: Smoothen things out, fix minor bugs. Added some basics like a Start screen, Pause menu, Game Over screen etc.
+<br>Saturday and Sunday: <br>Smoothen things out, fix minor bugs. Added some basics like a Start screen, Pause menu, Game Over screen etc.
 <br><br><b>Week 5:</b><br>
 <ul><li>Monday: Researched the ghost AI. Apparently they all have different logic 
-(<a href="http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior">Interesting article here</a>). 
+(<a href="http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior">interesting article here</a>). 
 Coded the most basic one which follows a simple chase algorithm.</li>
 <li>Tuesday: Added two more ghosts, one of whose AI logic is completely made up by me :P</li>
 <li>Wednesday: Added some music and stuff. We're done here.</li>

@@ -5,10 +5,10 @@ margin: 0 auto;
 height: 100%;
 font-family: 'Roboto', Verdana, Arial, sans-serif; 
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 720px) {
 body {
 margin-top: 32px;
-width: 90%;
+width: 80%;
 }
 }
 body header
