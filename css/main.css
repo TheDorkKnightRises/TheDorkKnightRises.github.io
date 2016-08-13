@@ -2,9 +2,14 @@ body
 { 
 padding-top: 80px;
 margin: 0 auto;
-width: 90%;
 height: 100%;
 font-family: 'Roboto', Verdana, Arial, sans-serif; 
+}
+@media screen and (min-width: 960px) {
+body {
+margin-top: 32px;
+width: 90%;
+}
 }
 body header
 {
@@ -33,6 +38,8 @@ p1
 }
 footer 
 { 
+background-color: #ffffff;
+padding: 16px;
 border-top: 1px solid #d5d5d5;
 }
 ul.posts li 

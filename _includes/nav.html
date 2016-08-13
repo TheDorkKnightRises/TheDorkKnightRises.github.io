@@ -13,9 +13,15 @@
 
 	.mdl-layout__header-row {
 		width: 80%;
-		margin: 10px auto;
+		margin: 8px auto;
 		padding: 10px 10px 10px 10px;
 		z-index: 999;
+	}
+
+	@media screen and (max-width: 375px) {
+		.mdl-layout__header-row .mdl-navigation__link {
+			padding: 0 8px;
+		}
 	}
 
 	.bar {
@@ -36,18 +42,18 @@
 	<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary mdl-shadow--4dp">
 		<div class="mdl-layout__header-row">
 			<nav class="mdl-navigation">
-				<a href="/" class="mdl-navigation__link">
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+				<a href="/" class="mdl-navigation__link" id="homeButton">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
 						<b>Home</b>
 					</button>
 				</a>
-				<a href="/blog/" class="mdl-navigation__link">
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+				<a href="/blog/" class="mdl-navigation__link" id="blogButton">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
 						<b>Blog</b>
 					</button>
 				</a>
-				<a href="/about/" class="mdl-navigation__link">
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+				<a href="/about/" class="mdl-navigation__link" id="aboutButton">
+					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
 						<b>About</b>
 					</button>
 				</a>

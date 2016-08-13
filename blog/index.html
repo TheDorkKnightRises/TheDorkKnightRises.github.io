@@ -3,37 +3,41 @@ layout: default
 title: Blog | The Dork Knight Rises
 ---
 <style>
-.mdl-card {
-  flex-grow: 1;
-}
-section {
-  flex-grow: 1;
-}
+	.mdl-card {
+		flex-grow: 1;
+	}
+	section {
+		position:relative;
+		padding: 0 0 0 0;
+		flex-grow: 1;
+	}
 </style>
-<h1 style="color: #ffffff;">Blog</h1>
-{% for post in site.posts %}
-<section class="mdl-grid mdl-color--white mdl-shadow--8dp" style="position:relative;">
-            	<div class="mdl-card mdl-cell">
-                        <div class="mdl-card__supporting-text" style="position: absolute; top:16px; padding-bottom: 0px; margin-bottom: 0px;">
+<section class="mdl-grid">
+	{% for post in site.posts %}
+	<div class="mdl-card mdl-cell mdl-shadow--8dp">
+		<div class="mdl-card__supporting-text" style="position: absolute; top:16px; padding-bottom: 0px; margin-bottom: 0px;">
 			<p>{{ post.title }}</p>
-                        <p1>{{ post.date | date_to_string }}</p1>
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border" style="height: 50px; position: absolute; z-index: 99; bottom:0;">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
-                               <b>Read</b>
-                        </a>
-                        </div>
+			<p1>{{ post.date | date_to_string }}</p1>
 		</div>
-	<div class="mdl-card__menu" style="position: absolute; z-index: 2; right:16px;">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share{{  post.title }}">
-			<i class="material-icons">share</i>
-	    </button>
-		<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="share{{  post.title }}">
-  			<a name='fb_share' type='link' href='http://www.facebook.com/sharer.php?url={{ site.url }}{{ post.url }}' rel='nofollow'><li class="mdl-menu__item">Facebook<script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script></li></a>
-  			<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}"><li class="mdl-menu__item">Twitter</li></a>
-  			<a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><li class="mdl-menu__item">Google+</li></a>
-		</ul>
+		<div class="mdl-card__actions mdl-card--border" style="height: 50px; position: absolute; bottom:0;">
+			<a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
+				<b>Read</b>
+			</a>
+		</div>
+		<div class="mdl-card__menu" style="position: absolute; z-index: 2; right:16px;">
+			<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share{{  post.title }}">
+				<i class="material-icons">share</i>
+			</button>
+			<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="share{{  post.title }}">
+				<a name='fb_share' type='link' href='http://www.facebook.com/sharer.php?url={{ site.url }}{{ post.url }}' rel='nofollow'><li class="mdl-menu__item">Facebook<script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script></li></a>
+				<a class="twitter-share-button" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}"><li class="mdl-menu__item">Twitter</li></a>
+				<a href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><li class="mdl-menu__item">Google+</li></a>
+			</ul>
+		</div>
 	</div>
+	<br>
+	{% endfor %}
 </section>
-<br>
-{% endfor %}
+<script type="text/javascript">
+	document.getElementById('blogButton').style.borderBottom='solid';
+</script>
