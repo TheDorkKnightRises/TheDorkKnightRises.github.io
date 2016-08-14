@@ -3,7 +3,6 @@ body
 background-color: #eee;
 padding-top: 80px;
 margin: 0 auto;
-height: 100%;
 font-family: 'Roboto', Verdana, Arial, sans-serif; 
 }
 @media screen and (min-width: 720px) {
@@ -46,20 +45,4 @@ border-top: 1px solid #d5d5d5;
 ul.posts li 
 { 
 list-style: none;
-}
-.modalDialog {
-	display: none;
-	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 999;
-	opacity: 1;
-	-webkit-transition: display 250ms ease-in;
-	-moz-transition: display 250ms ease-in;
-	transition: display 250ms ease-in;
-	pointer-events: auto;
 }

@@ -1,6 +1,7 @@
 <style type="text/css">
 
 	.mdl-layout__header-row {
+		text-align: center;
 		width: 80%;
 		margin: 8px auto;
 		padding: 10px 10px 10px 10px;
@@ -18,6 +19,16 @@
 		}
 	}
 
+	.bar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 100%; 
+		height: 240px;  
+		z-index: -999;
+	}
+
 </style>
 <div class="mdl-layout mdl-layout--fixed-header">
 	<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary mdl-shadow--4dp">
@@ -25,10 +36,11 @@
 			<nav class="mdl-navigation">
 				<a href="/" class="mdl-navigation__link" id="homeButton">
 					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
-						<b>Home</b>
+						<b>The Dork Knight Rises</b>
 					</button>
 				</a>
 			</nav>
 		</div>
-	</div>
+	</header>
 </div>
+<div class="mdl-layout-spacer mdl-color--primary bar"></div>
