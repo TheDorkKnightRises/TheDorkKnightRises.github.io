@@ -1,15 +1,4 @@
 <style type="text/css">
-	.demo-ribbon {
-		width: 100%;
-		height: 40vh;
-		background-color: #3F51B5;
-		flex-shrink: 0;
-	}
-
-	.demo-main {
-		margin-top: -35vh;
-		flex-shrink: 0;
-	}
 
 	.mdl-layout__header-row {
 		width: 80%;
@@ -29,19 +18,6 @@
 		}
 	}
 
-	.bar {
-		position: fixed;
-		top: 0;
-		left: 0;
-		margin: 0 auto;
-		width: 100%; 
-		height: 240px;  
-		z-index: -999;
-	}
-
-	.mdl-textfield__label:after {
-		background-color: #ffffff;
-	}
 </style>
 <div class="mdl-layout mdl-layout--fixed-header">
 	<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary mdl-shadow--4dp">
@@ -52,54 +28,7 @@
 						<b>Home</b>
 					</button>
 				</a>
-				<a href="/blog/" class="mdl-navigation__link" id="blogButton">
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
-						<b>Blog</b>
-					</button>
-				</a>
-				<a href="/projects/" class="mdl-navigation__link" id="projectsButton">
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
-						<b>Projects</b>
-					</button>
-				</a>
-				<a href="/about/" class="mdl-navigation__link" id="aboutButton">
-					<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white" style="height: 64px;">
-						<b>About</b>
-					</button>
-				</a>
 			</nav>
-			<div class="mdl-layout-spacer"></div>
-			<button type="button" class="mdl-button mdl-button--white mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="search" style="height: 48px; width: 48px;" onclick="showSearch();">
-				<i class="material-icons">search</i>
-			</button>
-		</header>
-	</div>
-	<div class="mdl-layout-spacer mdl-color--primary bar"></div>
-	<div id="searchModal" class="modalDialog">
-		<div class="mdl-card mdl-cell mdl-shadow--8dp" style="position: absolute; max-height: 90%; width: 90%; margin: 5%; overflow: auto;">
-			<div style="position: relative; top: 0px; margin-right: 42px; margin-bottom: 8px">
-				{%include search.html%}
-			</div>
-			<a style="position: absolute; right: 0px; top: 4px; z-index:9999">
-			<button type="button" class="mdl-button mdl-button--white mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="height: 48px; width: 48px;" onclick="hideSearch();">
-				<i class="material-icons">close</i>
-			</button>
-		</a>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-	var element;
-	function showSearch() {
-		element = document.getElementById('searchModal');
-		element.style.display='block';
-		return false;
-	}
-</script>
-
-<script type="text/javascript">
-	function hideSearch() {
-		document.getElementById('searchModal').style.display='none';
-		return false;
-	}
-</script>

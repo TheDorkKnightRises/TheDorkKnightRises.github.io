@@ -1,3 +1,3 @@
-# TheDorkKnightRises.github.io
+# samriddhabasu.github.io
 
-This is the repository for my personal website and blog ([Link](https://thedorkknightrises.github.io)) powered by GitHub Pages
+This website has moved to ([samriddhabasu.github.io](https://samriddhabasu.github.io))

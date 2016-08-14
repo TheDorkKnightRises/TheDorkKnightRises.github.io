@@ -1,10 +1,10 @@
-name: The Dork Knight Rises
+name: Samriddha Basu (The Dork Knight Rises)
 encoding: UTF-8
 markdown: kramdown
-paginate: 5
+paginate: 6
 paginate_path: "/blog/page:num/"
 permalink: /blog/:year/:month/:day/:title
-url: https://thedorkknightrises.github.io
+url: https://samriddhabasu.github.io
 gems:
   - jekyll-sitemap
   - jekyll-paginate
